@@ -119,7 +119,7 @@ namespace period_calc
                 rtpOutput.AppendText($"Calculation period: {start} - {end}\n");
             }
 
-            int totalHours = 0; // Counter for total hours
+            int totalHours = 0; // Counter for total hours, coomment test
             int currentWeek = 0;
             int currentMonth = start.Month;
             // Iterate from start to end
